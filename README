@@ -1,0 +1,28 @@
+The game Dining Kid Cryptographers (DKC) is a non-digital game developed 
+primarily for education and science, technology, engineering, and
+mathematics (STEM) outreach. The digital materials for DKC are released 
+here, as open-source products. These materials are of two forms:
+
+tgc-print
+=========
+Contains SVG and 300dpi PNG artwork, in a format appropriate to print using 
+The Game Crafter (http://thegamecrafter.com/), i.e. full-bleed artwork for 
+TGC print house.
+
+
+self-print
+==========
+Contains SVG and 300dpi PNG artwork, masked so it can be directly printed 
+and cut-out at home (no margins for cut or bleed).
+
+We recognize our self-print process is currently not very user-friendly.
+We are interested in improving it, and you might consider helping us.
+
+
+masters
+=======
+The original Scalable Vector Graphics files for generating the versions 
+of the game art and rules booklet.
+
+
+This work is covered under multiple licenses. See LICENSE for details.
