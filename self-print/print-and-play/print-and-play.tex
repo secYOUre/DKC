@@ -1,0 +1,55 @@
+\documentclass{letter}
+\pagestyle{empty}
+\usepackage{default}
+\usepackage[landscape,margin=0.25in]{geometry}
+\usepackage{graphicx,grffile}
+\usepackage{dashbox}
+\usepackage{pdflscape}
+\begin{document}
+
+\newcommand{\path}{../../self-print/300-dpi-png/}
+\renewcommand{\fboxsep}{0 pt}
+\newcommand{\card}[1]{\dashbox{\includegraphics{\path #1}}}
+\newcommand{\token}[1]{\includegraphics{\path #1}}
+
+\begin{centering}
+%%
+%% deck: 15 cards
+%%
+\card{digits/zero}
+\card{digits/zero}
+\card{digits/zero}\\
+\card{digits/one}
+\card{digits/one}
+\card{digits/one}\\
+\newpage
+\card{digits/zero}
+\card{digits/zero}
+\card{digits/zero}\\
+\card{digits/one}
+\card{digits/one}
+\card{digits/one}\\
+\newpage
+\card{digits/zero}
+\card{digits/zero}
+\card{digits/zero}\\
+\card{digits/one}
+\card{digits/one}
+\card{digits/one}\\
+\newpage
+\card{digits/zero}
+\card{digits/zero}
+\card{digits/zero}\\
+\card{digits/one}
+\card{digits/one}
+\card{digits/one}\\
+\newpage
+\card{digits/zero}
+\card{digits/zero}
+\card{digits/zero}\\
+\card{digits/one}
+\card{digits/one}
+\card{digits/one}\\
+\end{centering}
+
+\end{document}
